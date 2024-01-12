@@ -2,8 +2,6 @@ package com.ivray.quote_and_invoice;
 
 import java.time.LocalDate;
 
-import javax.print.Doc;
-
 import business.Client;
 import business.Document;
 import business.Invoice;

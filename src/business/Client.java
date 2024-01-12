@@ -28,6 +28,26 @@ public class Client {
         return address;
     }
 
+    public String getPhone() {
+        return phone;
+    }
+
+    public Long getIdNumber() {
+        return idNumber;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    public void setIdNumber(Long idNumber) {
+        this.idNumber = idNumber;
+    }
+
     // equals method
     @Override
     public boolean equals(Object obj) {
@@ -59,3 +79,4 @@ public class Client {
         return "Client [name=" + name + ", address=" + address + ", phone=" + phone + ", idNumber=" + idNumber
                 + "]";
     }
+}
